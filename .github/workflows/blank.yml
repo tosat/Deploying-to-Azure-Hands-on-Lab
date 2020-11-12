@@ -9,4 +9,4 @@ jobs:
       - name: Log in with Azure
         uses: azure/login@v1
         with:
-          creds: '${{ HANDSON201112TOSAT }}'
+          creds: '${{ secrets.HANDSON201112TOSAT }}'

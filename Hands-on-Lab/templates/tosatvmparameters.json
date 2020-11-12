@@ -3,25 +3,26 @@
     "contentVersion": "1.0.0.0",
         "parameters": {
         "virtualNetworkId": {
-            "value": "VNet1",
+            "value": "VNet1"
             },
         "subnetName": {
-            "value": "subnet-2",
+            "value": "subnet-2"
             },
         "virtualMachineName": {
-            "value": "tosat",
+            "value": "tosat"
             },
         "domainToJoin": {
-            "value": "handson.azure",
+            "value": "handson.azure"
             },
         "domainUsername": {
-            "value": "domainadmin",
+            "value": "domainadmin"
             },
         "domainPassword": {
-            "value": "Password.1!!",
+            "value": "Password.1!!"
             },
         "adminPassword": {
-            "value": "Password.1!!",
-            },
+            "value": "Password.1!!"
+            }
         }
     }
+

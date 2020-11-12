@@ -19,8 +19,8 @@ jobs:
       with:
         subscriptionId: ${{ secrets.SUBSID }}
         resourceGroupName: ${{ secrets.RG }}
-        template: ./deploy-vm-as-domain-member.json
-        parameters: ./tosatvmparameters.json
+        template: Deploying-to-Azure-Hands-on-Lab/Hands-on-Lab/templates/deploy-vm-as-domain-member.json
+        parameters: Deploying-to-Azure-Hands-on-Lab/Hands-on-Lab/templates/tosatvmparameters.json
         
       # output containerName variable from template
     - run: echo ${{ steps.deploy.outputs.containerName }}

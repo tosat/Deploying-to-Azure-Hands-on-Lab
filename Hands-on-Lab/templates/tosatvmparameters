@@ -1,0 +1,27 @@
+    "parameters": {
+        "virtualNetworkId": {
+            "value": "VNet1",
+            }
+        },
+        "subnetName": {
+            "value": "subnet-2",
+            }
+        },
+        "virtualMachineName": {
+            "value": "tosat",
+            }
+        },
+        "domainToJoin": {
+            "value": "handson.azure",
+        },
+        "domainUsername": {
+            "value": "domainadmin",
+        },
+        "domainPassword": {
+            "value": "Password.1!!",
+        },
+        "adminPassword": {
+            "value": "Password.1!!",
+            }
+        }
+    },

@@ -1,4 +1,4 @@
-name: Deploy Virtual Machine 2
+name: TEST Deploy Virtual Machine
 on: 
   # 手動ワークフロー トリガー
   workflow_dispatch:

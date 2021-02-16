@@ -6,16 +6,16 @@
             "value": "VNet1"
         },
         "subnetName": {
-            "value": "Subnet-1"
+            "value": "Subnet-2"
         },
         "virtualMachineName": {
-            "value": "Web-SVR-tosat0"
+            "value": "Web-SVR-tosat1"
         },
         "windowsOSVersion": {
             "value": "2019-Datacenter"
         },
         "virtualMachineSize": {
-            "value": "Standard_D2s_v3"
+            "value": "Standard_B2ms"
         },
         "domainToJoin": {
             "value": "cw0217.local"

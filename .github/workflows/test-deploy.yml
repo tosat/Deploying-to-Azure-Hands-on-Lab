@@ -4,12 +4,13 @@ on:
 workflow_dispatch:
 inputs:
 resourceGroupName:
-required:true
+description: Resource Group Name
+required: true
 
 jobs:
   deploy-virtual-machine:
   
-    runs-on:ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
     - name: Run a one-line script

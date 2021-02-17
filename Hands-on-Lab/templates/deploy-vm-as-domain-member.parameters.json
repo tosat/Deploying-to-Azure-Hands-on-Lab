@@ -9,7 +9,7 @@
             "value": "Subnet-2"
         },
         "virtualMachineName": {
-            "value": "Web-SVR-tosat1"
+            "value": "Web-SVR-tosat"
         },
         "windowsOSVersion": {
             "value": "2019-Datacenter"
